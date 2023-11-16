@@ -20,6 +20,16 @@ brew install discord &&
 brew install runjs && 
 brew install 1password && 
 brew install figma &&
+brew install nvm &&
+brew install yarn &&
+brew install zsh
+
+chsh -s $(which zsh)
+
 
 git config --global user.name "Gabriel Magreti"
 git config --global user.email "gabrielmagreti@gmail.com"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
